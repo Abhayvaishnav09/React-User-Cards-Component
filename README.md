@@ -52,7 +52,7 @@ Example:
 <UserCard name="Abhay Vaishnav" Desc="This is Abhay" style={{ borderRadius: "10px" }} />
 
 
-![User Cards Preview](preview.png)
+![User Cards Preview](./src/assets/preview.png)
 
 
 
