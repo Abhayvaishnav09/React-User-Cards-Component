@@ -1,12 +1,73 @@
-# React + Vite
+# React User Cards Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project showcasing reusable user card components. Each card displays a user’s name and description, with customizable styling using props. This project demonstrates the basics of React components, props, and styling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- React.js
+- CSS
+- JavaScript (ES6+)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/YourUsername/react-user-cards.git
+
+
+
+Navigate to the project folder
+
+cd react-user-cards
+
+
+Install dependencies
+
+npm install
+
+
+Run the app
+
+npm start
+
+
+Open http://localhost:3000
+ to view it in your browser.
+
+💻 Usage
+
+Each UserCard component takes the following props:
+
+name → The name of the user
+
+Desc → Short description of the user
+
+style → Optional inline styles (e.g., border radius)
+
+Example:
+
+<UserCard name="Abhay Vaishnav" Desc="This is Abhay" style={{ borderRadius: "10px" }} />
+
+
+![User Cards Preview](preview.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+If you want, I can **also suggest a nice GitHub repo title, topic tags, and a short catchy tagline** so it looks very professional on GitHub.  
+
+Do you want me to do that next?
